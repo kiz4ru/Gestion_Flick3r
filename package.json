@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "flickr-sdk": "^7.0.0-beta.6",
+    "form-data": "^4.0.0",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "http-proxy-middleware": "^2.0.6",
+    "install": "^0.13.0",
+    "node-fetch": "^2.6.1",
+    "oauth-1.0a": "^2.2.6",
+    "open": "^9.1.0",
+    "querystring": "^0.2.1",
+    "xml2js": "^0.6.2"
+  }
+}
