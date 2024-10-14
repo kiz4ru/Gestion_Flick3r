@@ -160,8 +160,8 @@ await llamarApiFlickr(accessToken, accessTokenSecret);
 const imagePathsFinal = getFilePaths('C:\\Users\\desarrollador3\\Documents\\Proyectos\\FINAL');
 const imagePathsMontaje = getFilePaths('C:\\Users\\desarrollador3\\Documents\\Proyectos\\MONTAJE');
 
-const photosetIdFinal = '72177720313013105'; // Reemplaza con el ID de tu álbum "Final"
-const photosetIdMontaje = '72177720313025698'; // Reemplaza con el ID de tu álbum "Montaje"
+const photosetIdFinal = 'cambiaesto'; // Reemplaza con el ID de tu álbum "Final"
+const photosetIdMontaje = 'cambiaesto'; // Reemplaza con el ID de tu álbum "Montaje"
 
 for (const imagePath of imagePathsFinal) {
   await subirFotoAFlickr(accessToken, accessTokenSecret, imagePath, photosetIdFinal);
